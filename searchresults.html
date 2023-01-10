@@ -11,29 +11,30 @@
     <header>
         <h2>Search Results</h2>
     </header>
-    <section class="searchResults" id="searchResults">
-        <p>Text for testing purposes</p>
+    <main>
+    <section id="searchResults">
     </section>
-    <aside class="searchParameters">
+    <aside>
         <h2>Library of Congress Search Engine</h2>
         <form>
-            <input type="text" id="queryInput" name="queryInput">
+            <input type="text" id="queryInput" name="queryInput" placeholder="Enter topic">
             <br>
             <select name="category" id="categoryInput">
                 <option value="" disabled selected>Select a category</option>
-                <option value="maps"></option>
-                <option value="audio"></option>
-                <option value="photos"></option>
-                <option value="manuscripts"></option>
-                <option value="newspapers"></option>
-                <option value="film-and-videos"></option>
-                <option value="notated-music"></option>
-                <option value="websites"></option>
+                <option value="maps">Maps</option>
+                <option value="audio">Audio</option>
+                <option value="photos">Photos</option>
+                <option value="manuscripts">Manuscripts</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="film-and-videos">Film and Videos</option>
+                <option value="notated-music">Notated Music</option>
+                <option value="websites">Websites</option>
             </select>
         </form>
-        <button type="submit" id="searchBtn">Search</button>
+        <button type="button" id="searchBtn">Search</button>
         <br>
-        <button type="button">Go Back</button>
+        <button type="button" id="backBtn">Go Back</button>
     </aside>
+    </main>
 </body>
 </html>
