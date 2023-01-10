@@ -30,3 +30,41 @@ label {
     width: 100%;
     margin: 5%;
 }
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100vh;
+    background-color: #b399a2;
+}
+
+aside {
+    width: 30%;
+    margin: 5px;
+}
+
+#searchResults{
+    margin: 5px;
+    width: 70%;
+    height: 100%;
+}
+
+#queryInput, #categoryInput {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#categoryInput {
+    width: 180px;
+}
+
+#searchBtn, #backBtn {
+    padding: 5px;
+    margin-top: 5px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #bbe5ed;
+    border-color: transparent;
+}
