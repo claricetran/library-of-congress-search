@@ -2,6 +2,35 @@ header {
     text-align: center;
 }
 
+#SearchBoxIndex {
+    width: 60vw;
+    height: 200px;
+    display: flex;
+}
+
+
+#SearchBoxIndex form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.indexQueryInput {
+    width: 98%;
+    margin: 5%;
+}
+
+label {
+    position: relative;
+    right: 35%;
+}
+
+.indexSearchBtn {
+    width: 100%;
+    margin: 5%;
+}
+
 main {
     display: flex;
     flex-direction: row-reverse;
