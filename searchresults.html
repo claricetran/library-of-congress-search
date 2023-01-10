@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library of Congress Search Results</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h2>Search Results</h2>
+    </header>
+    <section class="searchResults" id="searchResults">
+        <p>Text for testing purposes</p>
+    </section>
+    <aside class="searchParameters">
+        <h2>Library of Congress Search Engine</h2>
+        <form>
+            <input type="text" id="queryInput" name="queryInput">
+            <br>
+            <select name="category" id="categoryInput">
+                <option value="" disabled selected>Select a category</option>
+                <option value="maps"></option>
+                <option value="audio"></option>
+                <option value="photos"></option>
+                <option value="manuscripts"></option>
+                <option value="newspapers"></option>
+                <option value="film-and-videos"></option>
+                <option value="notated-music"></option>
+                <option value="websites"></option>
+            </select>
+        </form>
+        <button type="submit" id="searchBtn">Search</button>
+        <br>
+        <button type="button">Go Back</button>
+    </aside>
 </body>
 </html>
